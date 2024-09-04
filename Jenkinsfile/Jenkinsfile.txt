@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DIRECTORY_PATH = '/path/to/your/code'
+        DIRECTORY_PATH = 'C:\Program Files\Git\repo\Jenkinsfile'
         TESTING_ENVIRONMENT = 'TestingEnv'
         PRODUCTION_ENVIRONMENT = 'AmirProdEnv'
     }
